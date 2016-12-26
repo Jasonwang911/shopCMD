@@ -1,0 +1,175 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 560px; }
+  .banner .bg {
+    width: 100%;
+    height: 100%; }
+  .banner .ban_con {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 46px;
+    margin-left: -600px; }
+    .banner .ban_con img:nth-child(1) {
+      position: absolute;
+      left: 308px;
+      top: 0;
+      height: 208px; }
+    .banner .ban_con .img2 {
+      position: absolute;
+      left: -90px;
+      top: 112px; }
+    .banner .ban_con .img3 {
+      position: absolute;
+      right: 83px;
+      top: 175px; }
+    .banner .ban_con p {
+      width: 491px;
+      color: #fff;
+      font-size: 16px;
+      position: absolute;
+      left: 320px;
+      top: 230px;
+      line-height: 29px; }
+    .banner .ban_con a {
+      width: 240px;
+      height: 66px;
+      background: url("../img/fenxiao_banner-btn.png") 0 0;
+      position: absolute;
+      left: 427px;
+      top: 389px; }
+
+.content {
+  padding-top: 64px; }
+  .content .con_fang {
+    width: 1004px;
+    margin: 0 auto; }
+    .content .con_fang .tit {
+      width: 1004px;
+      height: 11px;
+      border-bottom: 1px solid #ccc;
+      margin: auto auto 34px;
+      text-align: center; }
+      .content .con_fang .tit h3 {
+        display: inline-block;
+        width: 172px;
+        height: 45px;
+        background: url("../img/fenxiao_sprite.png") 0 -82px #fff;
+        margin-left: -86px; }
+    .content .con_fang ul {
+      margin-top: 50px; }
+      .content .con_fang ul li {
+        float: left;
+        width: 250px;
+        text-align: center;
+        margin-right: 83px; }
+        .content .con_fang ul li a {
+          display: block;
+          margin: 0 auto 22px;
+          width: 130px;
+          height: 130px;
+          background: url("../img/yingxiao_ico.png") 0 0;
+          background-size: 100%; }
+        .content .con_fang ul li span {
+          color: #333333;
+          font-size: 23px;
+          margin-bottom: 10px; }
+        .content .con_fang ul li p {
+          color: #999;
+          font-size: 14px;
+          line-height: 18px; }
+        .content .con_fang ul li:nth-child(2) a {
+          background: url("../img/yingxiao_ico.png") 0 -130px; }
+        .content .con_fang ul li:nth-child(3) a {
+          background: url("../img/yingxiao_ico.png") 0 -260px; }
+
+.content_2 {
+  background: #fafafa;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 90px; }
+  .content_2 .con_fang .tit {
+    width: 1004px;
+    height: 11px;
+    border-bottom: 1px solid #ccc;
+    margin: auto auto 34px;
+    text-align: center; }
+    .content_2 .con_fang .tit h3 {
+      display: inline-block;
+      width: 172px;
+      height: 45px;
+      background: url("../img/fenxiao_sprite.png") 0 -442px #fff;
+      margin-left: -86px; }
+  .content_2 .con_fang img {
+    width: 1200px;
+    height: 530px; }
+
+.content_3 {
+  margin-top: 65px;
+  overflow: hidden; }
+  .content_3 .con_fang .tit {
+    width: 1004px;
+    height: 11px;
+    border-bottom: 1px solid #ccc;
+    margin: auto auto 34px;
+    text-align: center; }
+    .content_3 .con_fang .tit h3 {
+      display: inline-block;
+      width: 172px;
+      height: 45px;
+      background: url("../img/fenxiao_sprite.png") 0 -217px #fff;
+      margin-left: -86px; }
+  .content_3 .con_fang ol {
+    width: 1108px;
+    margin: 46px auto 0; }
+    .content_3 .con_fang ol li {
+      float: left;
+      padding: 17px 69px 24px 30px;
+      border-bottom: 1px dashed #cccccc;
+      border-right: 1px dashed #ccc; }
+      .content_3 .con_fang ol li a {
+        display: block;
+        background: url("../img/tao.png") no-repeat;
+        width: 102px;
+        height: 40px; }
+      .content_3 .con_fang ol li:nth-child(5) {
+        border-right: none; }
+      .content_3 .con_fang ol li:nth-child(10) {
+        border-right: none; }
+      .content_3 .con_fang ol li:nth-child(10) {
+        border-right: none; }
+      .content_3 .con_fang ol li:nth-child(11) {
+        border-bottom: none; }
+      .content_3 .con_fang ol li:nth-child(12) {
+        border-bottom: none; }
+      .content_3 .con_fang ol li:nth-child(13) {
+        border-bottom: none; }
+      .content_3 .con_fang ol li:nth-child(14) {
+        border-bottom: none; }
+      .content_3 .con_fang ol li:nth-child(15) {
+        border-right: none;
+        border-bottom: none; }
+  .content_3 .con_fang .btn {
+    width: 200px;
+    height: 71px;
+    margin: 82px auto 80px;
+    position: relative; }
+    .content_3 .con_fang .btn a {
+      display: inline-block;
+      width: 196px;
+      height: 52px;
+      border: 1px solid #fe982d;
+      text-align: center;
+      line-height: 52px;
+      color: #fe982d;
+      font-size: 20px; }
+    .content_3 .con_fang .btn i {
+      width: 30px;
+      height: 30px;
+      background: url("../img/dian_03.png") no-repeat;
+      position: absolute;
+      top: -15px;
+      right: 5px; }
+
+/*# sourceMappingURL=yingxiao.css.map */

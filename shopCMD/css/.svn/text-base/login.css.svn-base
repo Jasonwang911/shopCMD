@@ -1,0 +1,119 @@
+.content{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.content .logo{
+    width: 246px;
+    height: 69px;
+    margin:28px 0 13px 391px;
+}
+.content .banner{
+    width: 100%;
+    height: 560px;
+    max-width: 1920px;
+    min-width: 1200px;
+    background: url(../images/z.jpg) no-repeat center;
+    margin: 0 auto;
+}
+.login{
+    padding: 85px 0 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+.banner .rim{
+    border-radius: 2px;
+    margin: 0 0 0 auto;
+    padding: 5px;
+    width: 340px;
+}
+.form{
+    border: 1px solid #e1e1e1;
+    /*padding: 0 40px 30px;*/
+    /*width: 260px;*/
+    background: #fff;
+}
+.rim .user{
+    text-align: center;
+    margin-top: 29px;
+    font-size: 20px;
+}
+.rim .user-e{
+    width: 258px;
+    height: 25px;
+    background: #fff6d2;
+    border:1px solid #ffe57d;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: #fb0303;
+    text-align: center;
+    line-height: 25px;
+    visibility: hidden;
+}
+.rim input{
+    width: 258px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-indent: .5em;
+    padding-left: 31px;
+}
+.rim .username{
+    margin-top: 9px;
+    background: url(../images/TX.jpg) 0 0 no-repeat;
+
+}
+.rim .password{
+    margin-top: 20px;
+    background: url(../images/TX.jpg) 0 -62px no-repeat;
+}
+.rim .user-p{
+    margin-top: 25px;
+    display: -webkit-box;
+    font-size: 12px;
+    color: #666;
+}
+.rim .submit{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #a5a5a5;
+    background: #e4e4e4;
+    margin-right: 6px;
+}
+.user-p label{
+    margin-right: 137px;
+}
+.user-p a{
+    color: #666;
+}
+.rim .user-login{
+    width: 260px;
+    height: 37px;
+    border: none;
+    background: #3e7ee7;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 17px;
+    cursor: pointer;
+    padding: 0;
+}
+.rim .user-new{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 41px;
+    text-decoration: underline;
+}
+.content .footer{
+    text-align: center;
+    margin-top: 46px;
+    color: #999;
+    font-size: 13px;
+}
+

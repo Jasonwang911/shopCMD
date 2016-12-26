@@ -1,0 +1,132 @@
+.header-p{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid #d9d9d9;
+}
+.header-p .logo-p{
+    width: 221px;
+    height: 62px;
+    margin-top: 19px;
+    margin-left: 352px;
+    background: url(../images/shop_03.png) no-repeat;
+    background-size: 100%;
+}
+.content-p{
+    width: 100%;
+    height: 1030px;
+    background: #fafafa;
+    overflow: hidden;
+}
+.content-p .content-p-c{
+    width: 1198px;
+    height: 858px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    text-align: center;
+    margin: 53px auto;
+}
+.content-p-c .password-r{
+    text-align: center;
+    margin-top: 39px;
+    color: #333;
+    font-size: 25px;
+    font-weight: 500;
+}
+.password-i .add-wrap{
+    width: 480px;
+    height: 40px;
+    margin: 20px auto;
+}
+.add-wrap2,.add-wrap .name-wrap{
+    font-size: 16px;
+    color: #666;
+    line-height: 40px;
+    text-align: right;
+    width: 112px;
+}
+.name-wrap .need{
+    color: #ff910f;
+    font-size: 18px;
+    padding: 3px;
+    line-height: 0;
+}
+.inp-wrap .pk-long{
+    width: 365px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 40px;
+    text-indent: .5em;
+}
+.inp-wrap .text,.btn{
+    width: 174px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 40px;
+    text-indent: .5em;
+}
+.inp-wrap .btn{
+    float: right;
+    cursor: pointer;
+}
+.inp-wrap a{
+    float: left;
+    margin-left: 39px;
+}
+.inp-wrap .change{
+    line-height: 40px;
+    margin-left: 30px;
+}
+.last input{
+    width: 369px;
+    height: 46px;
+    color: #fff;
+    line-height: 46px;
+    background: #2288f6;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+.last{
+    width: 369px;
+    height: 70px;
+    margin: 20px 0 0 467px;
+}
+.last a{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #808080;
+}
+.last .l-f{
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: 169px;
+    background: #212425;
+    overflow: hidden;
+    color: #888;
+    text-align: center;
+    line-height: 24px;
+}
+.footer-container{
+    margin: auto;
+    width: 1180px;
+}
+.footer-container .foot-nav{
+    border-bottom: 1px solid #888;
+    margin: 40px 0 12px 0;
+    padding-bottom: 14px;
+}
+.footer-container .foot-nav a{
+    color: #f0f1f1;
+    padding: 0 14px;
+}
+.copyright{
+    font-size: 14px;
+    color: #999;
+    line-height: 2;
+    text-align: center;
+}

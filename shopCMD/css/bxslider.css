@@ -1,0 +1,117 @@
+.bx-wrapper {
+	margin: 0 auto;
+	padding: 0;
+	position: relative
+}
+
+.bx-wrapper img {
+	display: block;
+	width: 100%
+}
+
+.bx-wrapper .bx-viewport {
+	background-color: #fff;
+	transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-webkit-transform: translateZ(0)
+}
+
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+	bottom: 24px;
+	position: absolute;
+	width: 100%
+}
+
+.bx-wrapper .bx-loading {
+	background: url(../images/bx_loader.gif) no-repeat #fff center center;
+	height: 100%;
+	left: 0;
+	min-height: 50px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2000
+}
+
+.bx-wrapper .bx-pager {
+	color: #666;
+	font-family: Arial;
+	font-size: .85em;
+	font-weight: 700;
+	padding-top: 20px;
+	text-align: center
+}
+
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item, .bx-wrapper .bx-pager .bx-pager-item {
+	display: inline-block
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: #e9f4fb;
+	border: 1px solid #e9f4fb;
+	border-radius: 100%;
+	display: block;
+	height: 12px;
+	margin: 0 5px;
+	text-indent: -9999px;
+	width: 12px
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background-color: transparent
+}
+
+.bx-wrapper .bx-prev {
+	background: url(../images/controls.png) no-repeat;
+	left: -80px
+}
+
+.bx-wrapper .bx-next {
+	background: url(../images/controls.png) no-repeat;
+	right: -80px
+}
+
+.bx-wrapper .bx-controls-direction a {
+	height: 60px;
+	margin-top: -38px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 60px;
+	z-index: 9999
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none
+}
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px
+}
+
+.bx-wrapper .bx-caption {
+	background: rgba(80, 80, 80, .75) none repeat scroll 0 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	display: block;
+	font-family: Arial;
+	font-size: .85em;
+	padding: 10px
+}

@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box
+}
+
+a, body, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, img, input, label, li, ol, p, span, strong, td, textarea, th, ul {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: "Microsoft YaHei", "Lucida Grande", "Lucida Sans", sans-serif;
+	background-color: #fff;
+}
+
+li, ol, ul {
+	list-style: none
+}
+
+a, button, img {
+	outline: 0
+}
+
+a {
+	text-decoration: none;color: #fff;
+}
+
+img {
+	border: none
+}
+
+:focus {
+	outline: 0
+}
+
+button::-moz-focus-inner {
+	border: none;
+	padding: 0
+}
+
+em, i {
+	font-style: normal
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block
+}
+.clearfix:after{display:block; content:''; clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+img{vertical-align:top;}/*解决图片下边3px的BUG*/
+a img{border:0;}
+input,select{outline:none;}
+td,th{padding:0;border:1px solid #000;}
+table{border-collapse:collapse;}/*表格边框塌陷，使得边框为单线/* CSS Document */
